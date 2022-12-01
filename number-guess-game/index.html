@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div>
+            <p>Number Guessing Game</p>
+            <p>Guess a number between 1-15</p>
+        </div>
+        <div id="guessDiv">
+            <div><input type="number" min="0" max="15" id="value"></div>
+            <button id="guessButton">Guess</button>
+        </div>
+        <div>
+            <p>Guessed numbers are: <span id="guessNumber"></span></p>
+            <p>No. of. guesses: <span id="tryValue"></span></p>
+        </div>
+        <p id="result"></p>
+    </div>
+</body>
+<script src="app.js"></script>
+</html>
